@@ -1,0 +1,72 @@
+body {
+    font-family: 'Special Elite', "cursive";
+    background: url("./photos/cliff-16.jpg") no-repeat center center fixed;
+    color: white;
+}
+
+header {
+    text-align: center;
+    font-family: 'Special Elite', "cursive";
+}
+
+.headerWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgba(44, 42, 43, 0.3);
+    color: #eae7e4;
+    width: 100%;
+}
+
+.icons {
+    margin-top: 15px;
+}
+
+.face {
+    border-radius: 50%;
+    height: 115px;
+    width: 115px;
+}
+
+#iconLinkedIn {
+    font-size: 50px;
+    text-decoration: none;
+    color: #0077b5;
+    margin: 10px;
+    padding: 5px;
+}
+
+#iconGitHub {
+    font-size: 50px;
+    text-decoration: none;
+    color: #eae7e4;
+    margin: 10px;
+    padding: 5px;
+}
+
+#iconGmail {
+    font-size: 50px;
+    text-decoration: none;
+    color: #cd3d2d;
+    margin: 10px;
+    padding: 5px;
+}
+
+#icon:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+@media screen and (min-width: 769px) {
+    .headerWrapper {
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 10px;
+        background-color: rgba(44, 42, 43, 0.5);
+        color: #eae7e4;
+        width: 100%;
+    }
+}

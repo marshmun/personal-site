@@ -1,4 +1,4 @@
-body {
+.topHalf {
     font-family: 'Special Elite', "cursive";
     background: url("./photos/cliff-16.jpg") no-repeat center center fixed;
     color: white;
@@ -34,13 +34,50 @@ header {
     font-family: 'Special Elite', "cursive";
     padding: 10px;
     background-color: rgba(44, 42, 43, 0.3);
-    margin: 10px 0;
+    margin: 12rem 0 12rem;
     width: 50%;
     color: white;
     text-align: center;
     position: relative;
     top: 50%;
     left: 25%;
+}
+
+.learnMore {
+    text-align: center;
+    color: white;
+}
+
+.learnIt {
+    color: white;
+}
+
+.thirds {
+    display: flex;
+    text-align: center;
+    flex-flow: column;
+    padding-bottom: 12rem;
+}
+
+.thirds div {
+    padding: 0 9px;
+}
+
+.title {
+    text-align: center;
+    padding: 4rem 0 4rem;
+}
+
+.navigation {
+    display: flex;
+}
+
+.video {
+    text-align: center;
+}
+
+#title {
+    padding-bottom: 4rem;
 }
 
 #iconLinkedIn {
@@ -72,6 +109,24 @@ header {
     color: blue;
 }
 
+#code {
+    font-size: 50px;
+    text-decoration: none;
+    color: blue;
+}
+
+#smile {
+    font-size: 50px;
+    text-decoration: none;
+    color: blue;
+}
+
+#terminal {
+    font-size: 50px;
+    text-decoration: none;
+    color: blue;
+}
+
 @media screen and (min-width: 769px) {
     .headerWrapper {
         display: flex;
@@ -81,5 +136,17 @@ header {
         background-color: rgba(44, 42, 43, 0.5);
         color: #eae7e4;
         width: 100%;
+    }
+    .thirds {
+        flex-flow: row;
+    }
+    #first {
+        flex: 1 1 27%;
+    }
+    #second {
+        flex: 1 1 27%;
+    }
+    #third {
+        flex: 1 1 27%;
     }
 }
